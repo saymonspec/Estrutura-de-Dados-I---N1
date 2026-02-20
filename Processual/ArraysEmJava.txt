@@ -1,0 +1,41 @@
+                                                                   ARRAYS UNIDIMENSIONAIS EM JAVA
+
+Os Arrays Unidimensionais são os que possuem apenas um índice para acessar seu conteúdo eles são declarados da seguinte forma:
+
+Tipo de dado -> nome do array = new tipo-de-dado [quantidade] 
+Tipo de dado [] -> pode ser qualquer tipo de variável 
+Nome do array -> um nome válido; as mesmas regras para nomes de variáveis
+Quantidade -> quantidade de elementos que o array pode manipular.
+
+Exemplos:
+
+INT [] numeros = new int[10]; cria um array com o nome numeros que contém 10 elemento do tipo int e seu índice varia de 0 a 9
+DOUBLE [] precos = new double [5]; cria um array com o nome precos que contém 5 elementos do tipo double e seu índice varia de 0 a 4
+CHAR [] sexo = new char [2]; cria um array com o nome sexo que contém 2 elementos do tipo char e seu índice varia entre 0 e 1
+BOOLEAN [] opcoes  = new boolean [2]; cria um array com o nome opcoes que contém 2 elementos do tipo boolean e seu índice varia entre 0 e 1
+STRING [] meses  = new string [12]; cria um array com o nome meses que contém 12 elementos do tipo string e e seu índice varia de 0 a 11
+
+
+
+                                                                    ARRAYS BIDIMENSIONAIS EM JAVA
+
+Um Array Bidimensional possui dois índices e possibilita que os valores sejam armazenados na forma de matrizes a linguagem java não suporta arrays bidimensionais como as outras linguagens (no formato linha, coluna, por exemplo), entretanto é possível obter a mesma funcionalidade criando um arrays.os de uso mais comum são os que envolvem dois arrays, mas é possível criar arrays com quantas dimensões forem necessárias. Esses arrays devem ser declarados da seguinte forma:
+
+Tipo-do-dado nome do array[][] = new tipo-do-dado [<índice>] [<índice2>]
+
+
+                                                                    ARRAY (VETOR) EM PYTHON
+
+
+Em Python, o conceito de Array (Vetor) pode ser implementado de algumas formas sendo a mais comum o uso de listas (nativas) ou através da biblioteca Numpy para operações de alta perfomance.
+
+1) Lista Python (o jeito padrão)
+As listas em Python funcionam como arrays dinâmicos, o que significa que podemos armazenar diferentes tipos de dados e mudar o tamanho automaticamente.
+
+2) Numpy Array (o jeito matemático)
+Para manipulação de grandes volumes de dados ou cálculos matemáticos (Data Science), usa-se a biblioteca Numpy que fornece arrays mais eficientes.
+
+Principais diferenças:
+
+-Listas: dinâmicas, aceitam tipos mistos (inteiros, strings, etc)
+-Numpy Arrays: tem tamanho fixo, mas são otimizados para operações numéricas e exigem que os dados sejam do mesmo tipo.
